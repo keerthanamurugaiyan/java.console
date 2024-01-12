@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        const address = [1, "ebrain",
+         { name: "array" },
+            {
+                name: "keerthna",
+                age: 20
+            }, {
+                name: "pranjuka",
+                age: 18,
+                address: {
+                    street: "north",
+                    city: "Thanjavur"
+                }
+            },
+            {
+                name: "keerthana",
+                address: [{
+                    permanent: {
+                        street: "north",
+                        city: "Orathanadu"
+                    },
+                    temporary: {
+                        street: "south",
+                        city: "chennai"
+                    }
+                }]
+            }]
+        console.log
+        console.log(address[0])
+        console.log(address[1])
+        console.log(address[2].name)
+        console.log(address[3].age)
+        console.log(address[4].name)
+        console.log(address[5])
+        console.log(address[5].address[0].permanent)
+        console.log(address[5].address[0].permanent.street)
+        console.log(address[5].address[0].temporary)
+        console.log(address[5].address[0].temporary.city)
+    </script> 
+
+
+</body>
+</html>
